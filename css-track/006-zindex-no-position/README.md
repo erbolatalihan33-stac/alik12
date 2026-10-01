@@ -1,5 +1,7 @@
 # Bug #006: The Powerless Z-Index
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The red box (`box-1`) should overlap the blue box (`box-2`).
 

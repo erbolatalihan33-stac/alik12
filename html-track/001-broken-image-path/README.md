@@ -1,5 +1,7 @@
 # Bug #001: The Invisible Logo
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Display the company logo on the profile page.
 

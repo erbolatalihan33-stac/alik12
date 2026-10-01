@@ -1,5 +1,7 @@
 # Bug #004: Clicking logic broken
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 When a user clicks on the text "Email address:", the input box should become focused (active).
 

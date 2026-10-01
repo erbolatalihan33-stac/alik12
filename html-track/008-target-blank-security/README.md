@@ -1,5 +1,7 @@
 # Bug #010: The Vulnerable Tab
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Open the link in a new tab securely.
 

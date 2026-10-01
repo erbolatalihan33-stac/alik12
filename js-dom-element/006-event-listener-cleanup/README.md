@@ -1,5 +1,7 @@
 # DOM Bug #006: The Persistent Alert
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Clicking "Stop Alerts" should prevent the "Alert Me" button from popping up messages.
 

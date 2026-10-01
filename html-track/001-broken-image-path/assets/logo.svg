@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96">
+  <rect x="4" y="4" width="88" height="88" rx="18" fill="#0f766e"/>
+  <text x="48" y="61" fill="#ffffff" font-family="Georgia, serif" font-size="32" font-weight="700" text-anchor="middle">GFI</text>
+  <text x="108" y="58" fill="#172554" font-family="Georgia, serif" font-size="28" font-weight="700">GoodFirstIssues</text>
+</svg>

@@ -7,8 +7,7 @@
 <body>
     <h1 id="main-title">Page One</h1>
     
-    <!-- BUG: This element also has the same ID -->
-    <h2 id="main-title">Section Two</h2>
+    <h2 id="secondary-title">Section Two</h2>
 
     <p>A script is supposed to turn the title red, but something is wrong.</p>
 
@@ -16,6 +15,8 @@
         // document.getElementById always returns the FIRST match
         const title = document.getElementById("main-title");
         title.style.color = "red";
+        const secondaryTitle = document.getElementById("secondary-title");
+        secondaryTitle.style.color = "blue";
     </script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 # Bug #004: The Forgetful Theme
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The page should remember that the user selected "Dark Mode" even after they refresh the browser.
 
@@ -10,4 +12,3 @@ You click the button, the theme changes. But when you refresh, it goes back to w
 1. Look at the `localStorage` calls in `app.js`.
 2. Compare the string key in `getItem()` and `setItem()`. 
 3. One uses a hyphen `-`, the other uses an underscore `_`. They must match exactly!
- flagship: `user-theme` vs `user_theme`.

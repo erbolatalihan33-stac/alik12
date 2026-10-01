@@ -11,8 +11,8 @@
 }
 
 .item-b {
-    /* BUG: This item is forced into the same column as A, causing overlap or layout issues */
     grid-column: 1 / 2;
+    grid-row: 2;
     background: pink;
     padding: 20px;
     opacity: 0.8;

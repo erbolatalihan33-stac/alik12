@@ -1,5 +1,7 @@
 # Bug #008: The Great Grid Overlap
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Box A should be on top (full width), and Box B should be below it.
 
@@ -10,4 +12,3 @@ Box B is overlapping Box A or pushing things around weirdly because it's trying 
 1. By default, grid items try to fill cells.
 2. If you don't specify `grid-row`, items follow the source order but can overlap if forced.
 3. Try explicitly setting `grid-row: 2` for Item B.
- flagship.

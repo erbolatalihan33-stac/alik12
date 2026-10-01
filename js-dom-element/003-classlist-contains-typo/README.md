@@ -1,5 +1,7 @@
 # DOM Bug #003: The Broken Toggle
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Switch the box between green (active) and white (inactive).
 

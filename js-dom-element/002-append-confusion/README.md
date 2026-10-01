@@ -1,5 +1,7 @@
 # DOM Bug #002: The Bread Failure
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Add "Bread" to the shopping list when the button is clicked.
 

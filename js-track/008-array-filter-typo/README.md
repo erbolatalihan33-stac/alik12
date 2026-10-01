@@ -1,5 +1,7 @@
 # Bug #008: The Upside-Down Filter
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The list should only show members who are 18 or older.
 
@@ -9,4 +11,3 @@ Currently, the list is showing 12, 10, and 15. The adults are missing!
 ### Hints
 1. Look at the `filter()` logic in `app.js`.
 2. Check the comparison operator. Does `<` mean "greater than or equal to"?
- flagship.

@@ -1,5 +1,7 @@
 # Bug #003: 1 + 1 = 11?
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The calculator should add the numbers together correctly.
 

@@ -1,13 +1,14 @@
-# Bug #010: The Broken Promise
+# Bug #010: The Callback Scope Trap
+
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
 
 ### The Goal
-Display a welcome message after 1 second.
+Display the names "Ada", "Grace", and "Linus" one at a time, one second apart, after clicking the button.
 
 ### The Symptoms
-The page waits for 1 second, but then nothing happens. If you check the console, you see: `ReferenceError: name is not defined`.
+The delayed messages appear, but each one says `Hello, undefined!` instead of showing a name.
 
 ### Hints
-1. Look at the variable name defined at the top of the function.
-2. Look at the variable name used inside `setTimeout`.
-3. Do they match?
- flagship.
+1. Check how the loop variable is declared.
+2. What value does that variable have by the time the delayed callbacks run?
+3. Which declaration keyword gives each loop iteration its own variable?

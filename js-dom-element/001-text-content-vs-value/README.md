@@ -1,5 +1,7 @@
 # DOM Bug #001: The Ghost Input
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Count the number of characters typed in the input field when the button is clicked.
 

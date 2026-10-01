@@ -1,5 +1,7 @@
 # Bug #007: The 404 Link
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The user should be able to navigate to the "About Us" page.
 

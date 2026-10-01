@@ -1,5 +1,7 @@
 # Bug #003: The Header That Scrolled Away
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The black header should stay "stuck" to the top of the browser window as you scroll down the page.
 

@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     background: red;
-    /* BUG: z-index won't work because position is 'static' by default */
+    position: relative;
     z-index: 10;
 }
 

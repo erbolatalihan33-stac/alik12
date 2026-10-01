@@ -1,5 +1,7 @@
 # Bug #002: The Vanishing Welcome
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 When you submit the form, a welcome message should appear.
 

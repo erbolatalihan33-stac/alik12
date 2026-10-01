@@ -1,5 +1,7 @@
 # Bug #005: The Mathematical Mystery
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The two boxes should sit side-by-side, each taking exactly 50% of the screen.
 

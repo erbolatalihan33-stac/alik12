@@ -1,5 +1,7 @@
 # DOM Bug #007: The Over-Eager Eraser
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Delete only the button when it's clicked.
 

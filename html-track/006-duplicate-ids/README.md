@@ -1,5 +1,7 @@
 # Bug #008: The ID Identity Crisis
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Both titles should be uniquely identifiable, and IDs must be unique per page.
 

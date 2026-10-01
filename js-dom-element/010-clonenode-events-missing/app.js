@@ -1,13 +1,12 @@
-const clickBtn = document.querySelector(".click-me");
+function showAlert() {
+    alert("Button works!");
+}
 
-clickBtn.addEventListener("click", () => {
-    alert("Original button works!");
-});
+document.querySelector(".click-me").addEventListener("click", showAlert);
 
 document.getElementById("clone-btn").addEventListener("click", () => {
     const original = document.getElementById("original");
-    
-    // BUG: cloneNode(true) copies the HTML but NOT the event listeners!
     const copy = original.cloneNode(true);
+    copy.querySelector(".click-me").addEventListener("click", showAlert);
     document.body.appendChild(copy);
 });

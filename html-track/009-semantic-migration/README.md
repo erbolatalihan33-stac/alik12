@@ -1,5 +1,7 @@
 # Bug #052: The "Div Soup" Syndrome
 
+> Fixed: the page now demonstrates the semantic structure. The symptoms and hints below describe the original issue and its fix.
+
 ### The Goal
 Improve the accessibility and SEO of this page by using semantic HTML5 elements.
 

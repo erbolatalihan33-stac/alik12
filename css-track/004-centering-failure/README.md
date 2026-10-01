@@ -1,5 +1,7 @@
 # Bug #004: Left-Leaning Card
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The "Sign Up" card should be centered horizontally on the page.
 

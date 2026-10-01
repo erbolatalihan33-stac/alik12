@@ -1,5 +1,7 @@
 # Bug #009: The Silent Image
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Make this image accessible to users who use screen readers.
 

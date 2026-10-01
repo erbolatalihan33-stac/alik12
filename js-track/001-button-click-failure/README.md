@@ -1,10 +1,12 @@
 # Bug #001: The Button that Does Nothing
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 When you click "Click Me!", a message should appear below the button.
 
 ### The Symptoms
-Clicking the button does absoluteley nothing. No errors (or maybe one in the console?) and no message.
+Clicking the button does nothing. The browser console shows an error because JavaScript cannot find the button.
 
 ### Hints
 1. Open the Browser Console (F12 -> Console).

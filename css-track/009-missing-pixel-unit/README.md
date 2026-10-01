@@ -1,5 +1,7 @@
 # Bug #009: The Unit-less Disaster
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Make the title very large (`50px`).
 
@@ -10,4 +12,3 @@ The title remains small. The browser is ignoring the `font-size` rule.
 1. CSS is strict about units.
 2. `50` means nothing to a browser. Is it 50 pixels? 50 centimeters? 50 percent?
 3. Add `px` after the number.
- flagship.

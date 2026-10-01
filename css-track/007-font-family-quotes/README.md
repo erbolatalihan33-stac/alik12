@@ -1,5 +1,7 @@
 # Bug #007: The Font Name Fail
 
+> Fixed: the page now displays the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 The title should display in "Times New Roman".
 

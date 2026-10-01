@@ -1,5 +1,7 @@
 # Bug #005: The Invisible To-Dos
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Display the list of tasks inside the `<ul>` element.
 

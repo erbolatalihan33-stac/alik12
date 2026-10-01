@@ -1,5 +1,7 @@
 # DOM Bug #008: The Collection Crisis
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Highlight both paragraphs in yellow when the button is clicked.
 

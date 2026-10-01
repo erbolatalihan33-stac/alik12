@@ -1,5 +1,7 @@
 # DOM Bug #004: The Content Wipeout
 
+> Fixed: the app now demonstrates the goal. The symptoms and hints below describe the original bug and its fix.
+
 ### The Goal
 Add a new paragraph below the heading.
 

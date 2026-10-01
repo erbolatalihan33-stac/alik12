@@ -13,6 +13,5 @@
     height: 200px;
     background: gold;
     border: 2px solid black;
-    /* BUG: Modal is hidden behind background-content because of z-index */
-    z-index: 1;
+    z-index: 20;
 }
